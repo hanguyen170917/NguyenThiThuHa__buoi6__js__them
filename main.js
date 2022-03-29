@@ -15,7 +15,7 @@ document.getElementById("btnSubmit").addEventListener("click", function () {
         result += i + " ";
       }
     }
-    document.getElementById("footerSNT").innerHTML = result;
-    document.getElementById("footerSNT").style.fontSize = "20px";
+    document.getElementById("footerPrimeNumber").innerHTML = result;
+    document.getElementById("footerPrimeNumber").style.fontSize = "20px";
   }
 });
